@@ -37,7 +37,7 @@ def main():
         sys.exit(1)
 
     options = Options()
-    options.add_argument("--headless")  # remove if you want browser visible
+    options.add_argument("--headless")  
 
     driver = webdriver.Chrome(
         service=Service(ChromeDriverManager().install()),
@@ -51,4 +51,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
