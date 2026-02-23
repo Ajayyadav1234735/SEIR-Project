@@ -25,7 +25,7 @@ def process_url(driver, url):
             if href:
                 print(href)
 
-        print("\n" + "="*60 + "\n")
+        print("\n" + "="*40 + "\n")
 
     except Exception as e:
         print(f"Error: {e}")
@@ -53,3 +53,4 @@ def main():
 if __name__ == "__main__":
 
     main()
+
